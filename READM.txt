@@ -1,0 +1,18 @@
+Hi my friend, this project created by me and my partner it is an Ecommerce website based in cash in delivery.
+
+first of all you need to create mysql database with name "ecom".
+second you need to open terminal and run these commands:
+1- composer update
+2- php artisan migrate
+3- php artisan db:seed --class=UserSeeder
+Now your done.
+
+for go to the dashboard you need just to open slash like that: /login
+email: younesyoussef@gmail.com
+password: younesyoussef2023
+
+NOTE: for changing email and password go to file UserSeeder.php in folder database/seeders after change run these commands:
+1- php artisan migrate:f
+2- php artisan db:seed --class=UserSeeder
+If you don't want to make your tables clear all you need to go phpmyadmin and delete the user manualy from table users
+and run the command "2-" only.
